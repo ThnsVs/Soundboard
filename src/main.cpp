@@ -1,10 +1,8 @@
 #include <iostream>
 
-int main() 
+int main()
 {
 	std::cout << "Working.." << std::endl;
 
-
+	return 0;
 }
-
-
