@@ -3,7 +3,7 @@
 
 int main()
 {
-	
+
 	sf::SoundBuffer buffer;
 
 	// Cannot find default sound.
@@ -16,7 +16,7 @@ int main()
 	sf::Sound sound(buffer);
 	sound.play();
 
-	while (sound.getStatus() == sf::Sound::Status::Playing) 
+	while (sound.getStatus() == sf::Sound::Status::Playing)
 	{
 		sf::sleep(sf::milliseconds(100));
 	}
